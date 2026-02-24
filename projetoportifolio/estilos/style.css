@@ -219,6 +219,16 @@ article h2 {
   gap: 20px;
 }
 
+.projeto a {
+  text-decoration: none;
+  color: var(--destaque);
+}
+
+.projeto a:hover {
+  color: var(--destaque-inverso);
+  transition: color 0.4s;
+}
+
 #projeto-container .projeto {
   display: flex;
   flex-direction: column-reverse;
